@@ -564,3 +564,12 @@ display: flex;
         margin-left: 20px;
     }
 }
+
+@media (min-aspect-ratio:1.7) {
+
+    #about  .container{
+        top:0;
+
+    }
+    
+}
