@@ -153,7 +153,7 @@ header{
 /*-----------About Section----------------*/
 
 #about{
-    min-height:120vh;
+    min-height:min(120vh,960px);
     position: relative;
     display: flex;
     flex-direction: column;
@@ -163,7 +163,7 @@ header{
 
 #about .background{
     margin: 0;
-    height: 100vh;
+    height: min(100vh,800px);
     position: sticky;
     top:0;
     z-index: -1;
@@ -171,7 +171,7 @@ header{
 
 #about  .container{
     position:absolute;
-    top:20%;
+    top:min(20%,160px);
     background-color: rgb(34, 38, 42,0.92);
     height: max(60%,fit-content);
     display: grid;
